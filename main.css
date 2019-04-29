@@ -1,0 +1,320 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#container_home
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.photo_home
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.say_welcome
+{
+    position: absolute;
+    width: 100%;
+    height: 216px;
+    top: 30%;
+    
+}
+.welcome
+{
+   width: 100%;
+   
+}
+.style_welcome
+{
+   color: #fff;
+   background: #09ad32;
+   padding: 15px;
+   width: 177px;
+   border-radius: 15px;
+   margin: 0px auto;
+}
+.social
+{
+   width: 100%;
+   display: flex;
+   padding: 15px 0px;
+   list-style-type: none;
+   margin: 40px 0px;
+}
+.myaccount
+{
+   display: flex;
+   margin: 0px auto;
+   
+   
+}
+li[title="facebook"], li[title="githup"], li[title="freecodecamp"], li[title="freecodewars"]
+{
+   margin: 0px 10px;
+}
+.social a 
+{
+   color: #fff;
+   text-decoration: none;
+   
+}
+.facebook, .githup, .freecodecamp, .freecodewars
+{
+   background: #fff;
+   color: #000;
+   border-radius: 25px;
+   width: 15px;
+   height: 15px;
+   padding: 10px;
+   
+}
+.list
+{
+    background: #2e2e2e;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+}
+.options
+{
+    
+    width: 94%;
+    float: left;
+    list-style-type: none;
+    margin: 21px 30px;
+    
+}
+.page_list
+{
+    display: inline;
+    
+}
+.page_list a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    margin: 0px 10px;
+}
+a:hover{
+    color: #ff214f;
+}
+.facebook:hover
+{
+   background: #4267b2;
+}
+.githup:hover
+{
+   background: #dbedff;
+}
+.freecodecamp:hover
+{
+   background: #006400;
+}
+.freecodewars:hover
+{
+   background: #ae2e22;
+}
+#container_who_i_am
+{
+   position: relative;
+   width: 100%;
+   height: 89.5%;
+   
+}
+.who_i_am
+{
+   position: absolute;
+   width: 80%;
+   height: 70%;
+   margin: 71px;
+   
+}
+.photo_about_me
+{
+   width: 25%;
+   height: 100%;
+   z-index: 2;
+   
+}
+.about_me
+{
+   position: relative;
+   width: 70%;
+   height: 100%;
+   display: inline-flex;
+   left: 15px;
+}
+
+.hello
+{
+   position: absolute;
+   color: #fff;
+   background: #ff214f;
+   width:auto;
+   height: auto;
+   padding: 4px;
+   font-family: cursive;
+   
+}
+.i_am
+{
+   
+   color: #3d4451;
+   width: auto;
+   height: auto;
+   font-size: 36px;
+   font-weight: 400;
+}
+.myname
+{
+   position: absolute;
+   color: #3d4451;
+   width: 100%;
+   height: auto;
+   font-size: 36px;
+   font-weight: 700;
+   font-family: sans-serif;
+   top: 50px;
+   
+}
+.myjob
+{
+   position: absolute;
+   color: #151515;
+   width: 100%;
+   height: auto;
+   font-weight: 400;
+   font-family: sans-serif;
+   top: 100px;
+   border-bottom: 1px solid #dedede;
+   padding-bottom: 20px;
+   
+   
+}
+.a1
+{
+   position: absolute;
+   color: #8a8a8a;
+   width: 100%;
+   height: auto;
+   font-family: sans-serif;
+   top: 170px;
+   font-size: 14px;
+}
+.some_details
+{
+   position: absolute;
+   width: 100%;
+   height: auto;
+   top: 250px;
+   
+}
+.questions_answers
+{
+   width: 100%;
+   list-style-type: none;
+   line-height: 50px;
+   
+}
+.questions
+{
+   
+   color: #000;
+   font-size: 12px;
+   margin: 0px;
+   float:left;
+   width: 200px;
+
+}
+.answers
+{
+   color: #8a8a8a;
+   font-size: 15px;
+   
+}
+
+#container_leave_a_message
+{
+   position: relative;
+   width: 100%;
+   height: 70%;
+   margin-top: 7%;
+   
+}
+.leave_a_message
+{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   
+}
+.get_in_touch_box
+{
+   position: absolute;
+   width: 100%;
+   height: 70%;
+   top: 17%;
+   
+}
+.get_in_touch
+{
+   
+   width: 181px;
+   margin: 60px auto 0px;
+   color: #c9ff00;
+   
+}
+.message_put
+{
+   
+   width: 233px;
+   margin: 5px auto;
+   color: #c9ff00;
+}
+.put_box
+{
+   position: absolute;
+   width: 100%;
+   height: 230px;
+   margin-top: 60px;
+}
+.name_email_box
+{
+   width: 60%;
+   padding: 10px;
+   margin: 10px auto;
+}
+.name, .email
+{
+   width: 49.5%;
+   padding: 5px;
+   margin: 8px auto;
+   border-radius: 3px;
+}
+.message
+{
+   width: 100%;
+   height: 130px;
+   padding: 5px;
+   margin: 8px auto;
+   
+}
+.send
+{
+   cursor: pointer;
+   width: 80px;
+   display: block;
+   margin: auto;
+   padding: 7px;
+   border-radius: 2px;
+   font-weight: 400;
+   
+}
+
