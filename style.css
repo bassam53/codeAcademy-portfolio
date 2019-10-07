@@ -105,7 +105,6 @@ li[title="facebook"], li[title="githup"], li[title="freecodecamp"], li[title="fr
 }
 a:hover{
     color: #ff214f;
-    transition: color 1s ease-in-out;
 }
 .facebook:hover
 {
