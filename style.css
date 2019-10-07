@@ -123,6 +123,9 @@ a:hover{
 {
    background: #ae2e22;
 }
+.freecodewars:hover, .facebook:hover, .freecodecamp:hover, .githup:hover{
+    transition: color 1s ease-in-out;
+}
 #container_who_i_am
 {
    position: relative;
